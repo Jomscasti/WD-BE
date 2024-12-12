@@ -95,6 +95,7 @@ $result = mysqli_query($conn, $query);
           <div class="w3-content">
             <h1 class="w3-center"><b>Island of <?php echo $row['name']; ?></b></h1>
             <p class="w3-center w3-large"><?php echo $row['shortDescription']; ?></p>
+            <p class="w3-center"><?php echo $row['longDescription']; ?></p>
             <img class="w3-round w3-grayscale-min" src="assets/images/<?php echo $row['image']; ?>"
               style="width:100%;margin:32px 0">
             <p class="w3-center">
